@@ -25,7 +25,7 @@ zokou({
       const video = videos[0];
       const songDetails = {
         image: { url: video.thumbnail },
-         caption: `*ALPHA-MD SONG PLAYER*\n
+         caption: `*POPKID-MD SONG PLAYER*\n
 ╭───────────────◆
 │✞ *Title:* ${video.title}
 │✞ *Quality:* ${video.type}
@@ -38,11 +38,11 @@ zokou({
 ╭────────────────◆
 u can as well join here to get your song download
 in more tracks 🤗😋 
-https://t.me/keithmd 
+https://t.me/popkid 
 use prefix {/}  example {/search dada}
 ╰────────────────◆
 ╭────────────────◆
-│ *_Powered by keithkeizzah._*
+│ *_Powered by popkid._*
 ╰─────────────────◆`
       };
 
@@ -96,7 +96,7 @@ zokou({
       const video = videos[0];
       const videoDetails = {
         image: { url: video.thumbnail },
-        caption: `*ALPHA-MD VIDEO DOWNLOADER*\n
+        caption: `*POPKID-MD VIDEO DOWNLOADER*\n
 ╭───────────────◆
 │✞ *Title:* ${video.title}
 │✞ *Quality:* ${video.type}
@@ -109,11 +109,11 @@ zokou({
 ╭────────────────◆
 u can as well join here to get your song download
 in more tracks 🤗😋 
-https://t.me/keithmd 
+https://t.me/popkid 
 use prefix {/}  example {/search dada}
 ╰────────────────◆
 ╭────────────────◆
-│ *_Powered by keithkeizzah._*
+│ *_Powered by popkid._*
 ╰─────────────────◆`
       };
 
@@ -129,7 +129,7 @@ use prefix {/}  example {/search dada}
       fileStream.on('finish', () => {
         zk.sendMessage(origineMessage, {
           video: { url: "video.mp4" },
-          caption: "*𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃 𝐁𝐘 𝐀𝐋𝐏𝐇𝐀*",
+          caption: "*𝐆𝐄𝐍𝐄𝐑𝐀𝐓𝐄𝐃 𝐁𝐘 POPKID*",
           gifPlayback: false
         }, { quoted: commandeOptions.ms });
       });
